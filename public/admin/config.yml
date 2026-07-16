@@ -25,7 +25,7 @@ auth:
   last_name_claim: last_name
   avatar_url_claim: avatar_url
 
-logo_url: https://decapbridge.com/decapcms-with-bridge.svg
+logo_url: /uploads/logo-cms.png
 
 # Für lokales Testen ohne Login: Zeile einkommentieren und `npx decap-server` starten.
 # local_backend: true
