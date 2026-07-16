@@ -5,8 +5,7 @@ import { getBerichte } from '@/lib/content';
 const heroSlides = [
   {
     src: '/uploads/vereinsheim.jpg',
-    alt: 'Vereinsheim der OG Rheine am Moosgraben',
-    caption: 'Herzlich willkommen bei der Ortsgruppe Rheine',
+    alt: 'Vereinsheim der OG Rheine am Moosgraben – Herzlich willkommen',
   },
   {
     src: '/uploads/hero-uebungsgelaende.jpg',

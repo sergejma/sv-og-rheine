@@ -33,8 +33,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 src="/uploads/logo-german-shepherd.png"
                 alt=""
                 className="brand-logo"
-                width={44}
-                height={44}
+                width={58}
+                height={58}
               />
               <span className="brand-text">
                 <span className="brand-eyebrow">Verein für Deutsche Schäferhunde (SV) e.V.</span>
