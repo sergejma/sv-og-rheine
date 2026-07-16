@@ -1,0 +1,108 @@
+backend:
+  name: git-gateway
+  repo: sergejma/sv-og-rheine
+  branch: main
+  identity_url: DECAPBRIDGE_IDENTITY_URL # Platzhalter: identity_url aus dem DecapBridge-Dashboard eintragen
+  gateway_url: https://gateway.decapbridge.com
+  commit_messages:
+    create: Create {{collection}} "{{slug}}" - {{author-name}} via DecapBridge
+    update: Update {{collection}} "{{slug}}" - {{author-name}} via DecapBridge
+    delete: Delete {{collection}} "{{slug}}" - {{author-name}} via DecapBridge
+    uploadMedia: Upload "{{path}}" - {{author-name}} via DecapBridge
+    deleteMedia: Delete "{{path}}" - {{author-name}} via DecapBridge
+
+# Für lokales Testen ohne Login: Zeile einkommentieren und `npx decap-server` starten.
+# local_backend: true
+
+locale: de
+site_url: https://www.sv-og-rheine.de
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: berichte
+    label: Berichte
+    label_singular: Bericht
+    folder: content/berichte
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: [date, title]
+    fields:
+      - { label: Titel, name: title, widget: string }
+      - {
+          label: Datum,
+          name: date,
+          widget: datetime,
+          format: YYYY-MM-DD,
+          date_format: DD.MM.YYYY,
+          time_format: false,
+        }
+      - { label: Teaser, name: teaser, widget: text, hint: "1–2 Sätze für die Vorschau auf der Startseite." }
+      - { label: Bild, name: image, widget: image, required: false, hint: "Vorschaubild für die Startseite." }
+      - { label: Text, name: body, widget: markdown }
+
+  - name: seiten
+    label: Seiten
+    files:
+      - file: content/seiten/vorstand.md
+        name: vorstand
+        label: Vorstand
+        fields:
+          - { label: Titel, name: title, widget: string }
+          - { label: Inhalt, name: body, widget: markdown }
+      - file: content/seiten/mitglieder.md
+        name: mitglieder
+        label: Mitglieder
+        fields:
+          - { label: Titel, name: title, widget: string }
+          - { label: Inhalt, name: body, widget: markdown }
+      - file: content/seiten/pruefungen.md
+        name: pruefungen
+        label: Prüfungen
+        fields:
+          - { label: Titel, name: title, widget: string }
+          - { label: Inhalt, name: body, widget: markdown }
+      - file: content/seiten/impressum.md
+        name: impressum
+        label: Impressum
+        fields:
+          - { label: Titel, name: title, widget: string }
+          - { label: Inhalt, name: body, widget: markdown }
+      - file: content/seiten/datenschutz.md
+        name: datenschutz
+        label: Datenschutzerklärung
+        fields:
+          - { label: Titel, name: title, widget: string }
+          - { label: Inhalt, name: body, widget: markdown }
+
+  - name: kalender
+    label: Kalender
+    files:
+      - file: content/termine.yml
+        name: termine
+        label: Termine
+        fields:
+          - { label: Jahr, name: jahr, widget: number, value_type: int }
+          - label: Termine
+            name: termine
+            widget: list
+            summary: "{{fields.datum}} – {{fields.titel}}"
+            fields:
+              - { label: Datum, name: datum, widget: string, hint: "z. B. 25.01." }
+              - { label: Uhrzeit, name: uhrzeit, widget: string, hint: "z. B. 19:00 Uhr" }
+              - { label: Titel, name: titel, widget: string }
+
+  - name: galerie
+    label: Galerie
+    files:
+      - file: content/galerie.yml
+        name: galerie
+        label: Galeriebilder
+        fields:
+          - label: Bilder
+            name: bilder
+            widget: list
+            summary: "{{fields.beschreibung}}"
+            fields:
+              - { label: Bild, name: bild, widget: image }
+              - { label: Beschreibung, name: beschreibung, widget: string }
