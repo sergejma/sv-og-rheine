@@ -1,0 +1,31 @@
+personen:
+  - name: Wolfgang Noack
+    rolle: 1. Vorsitzender
+    foto: /uploads/vorstand-wolfgang-noack.jpg
+    email: wolfgang.noack(at)sv-og-rheine.de
+    telefon: 05971-7485
+  - name: Günter Knüppels
+    rolle: 2. Vorsitzender
+    foto: /uploads/vorstand-guenter-knueppels.jpg
+    telefon: 05971-796471
+  - name: Ina Göke
+    rolle: Schriftführerin
+    foto: /uploads/vorstand-ina-goeke.jpg
+  - name: Manfred Hupp
+    rolle: Kassierer
+    foto: /uploads/vorstand-manfred-hupp.jpg
+    email: manfred.hupp(at)sv-og-rheine.de
+    telefon: 05971-72121
+  - name: Michael Jarvers
+    rolle: 1. Ausbildungswart
+    foto: /uploads/vorstand-michael-jarvers.jpg
+    email: michael.jarver(at)sv-og-rheine.de
+    telefon: 05971-83621
+  - name: Christiane Broer
+    rolle: Presse-/Sportwartin
+    foto: /uploads/vorstand-christiane-broer.jpg
+    telefon: 05978-917274
+  - name: Michael Broer
+    rolle: Beisitzer, Platz-/Gerätewart
+    foto: /uploads/vorstand-michael-broer.jpg
+    telefon: 05978-917274

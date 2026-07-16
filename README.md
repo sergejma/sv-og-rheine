@@ -17,7 +17,10 @@ npm run build    # statischer Export nach out/
 | Pfad | Inhalt |
 | --- | --- |
 | `content/berichte/*.md` | News-Berichte (Frontmatter: `title`, `date`, `teaser`, `image`) |
-| `content/seiten/*.md` | Statische Seiten: Vorstand, Mitglieder, Prüfungen, Impressum, Datenschutz |
+| `content/vorstand.yml` | Vorstand (strukturierte Liste: Name, Funktion, Foto, Kontakt) |
+| `content/mitglieder.yml` | Mitglieder (strukturierte Listen: Hundeführer + Mitglieder) |
+| `content/pruefungen.yml` | Prüfungsergebnisse (strukturierte Tabellen) |
+| `content/seiten/*.md` | Statische Seiten: Impressum, Datenschutz |
 | `content/termine.yml` | Terminkalender (Jahr + Liste) |
 | `content/galerie.yml` | Galerie-Bildliste |
 | `public/uploads/` | Medienordner des CMS |

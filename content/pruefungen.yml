@@ -1,0 +1,779 @@
+pruefungen:
+  - titel: Herbstprüfung der Ortsgruppe Rheine
+    datum: 26.10.2024
+    richter: Gerhard von der Haar
+    ergebnisse:
+      - hundefuehrer: Ina Göke
+        hund: Targaryen's Dragon Action'Atze
+        stufe: IGP1
+        a: '98'
+        b: '70'
+        c: '91'
+        gesamt: '259'
+        note: G
+        ergebnis: bestanden
+      - hundefuehrer: Lukasz Poswiatowski
+        hund: Ninja
+        stufe: IGP2
+        a: '84'
+        b: '70'
+        c: '94'
+        gesamt: '248'
+        note: G
+        ergebnis: bestanden
+      - hundefuehrer: Michael Jarvers
+        hund: Perses zur Worringer Rheinaue
+        stufe: IGP3
+        a: '81'
+        b: '70'
+        c: '74'
+        gesamt: '225'
+        note: B
+        ergebnis: bestanden
+      - hundefuehrer: Karl Pelz
+        hund: Charly
+        stufe: BH
+        a: '-'
+        b: '-'
+        c: '-'
+        gesamt: '-'
+        note: ''
+        ergebnis: nicht bestanden
+      - hundefuehrer: Klaus Homann
+        hund: Chilli von Dog Holiday
+        stufe: IBGH1
+        a: '-'
+        b: '78'
+        c: '-'
+        gesamt: '78'
+        note: B
+        ergebnis: bestanden
+      - hundefuehrer: Werner Kellermann
+        hund: Black Diamond Von Der Rückel Meute
+        stufe: IBGH1
+        a: '-'
+        b: '75'
+        c: '-'
+        gesamt: '75'
+        note: B
+        ergebnis: bestanden
+  - titel: Herbstprüfung der Ortsgruppe Rheine
+    datum: 18.11.2023
+    richter: Bodo Jürgens
+    ergebnisse:
+      - hundefuehrer: Lukasz Poswiatowski
+        hund: Ninja
+        stufe: IGP1
+        a: '86'
+        b: '80'
+        c: '99'
+        gesamt: '265'
+        note: G
+        ergebnis: bestanden
+      - hundefuehrer: Ina Göke
+        hund: Targaryen's Dragon Action'Atze
+        stufe: IGP1
+        a: '40'
+        b: '85'
+        c: '93'
+        gesamt: '-'
+        note: M
+        ergebnis: bestanden
+      - hundefuehrer: Michael Broer
+        hund: Justus von Haus Bilko
+        stufe: IGP2
+        a: '96'
+        b: '90'
+        c: '95'
+        gesamt: '281'
+        note: SG
+        ergebnis: bestanden
+      - hundefuehrer: Michael Jarvers
+        hund: Perses zur Worringer Rheinaue
+        stufe: IGP2
+        a: '86'
+        b: '82'
+        c: '88'
+        gesamt: '256'
+        note: G
+        ergebnis: bestanden
+      - hundefuehrer: Stefan Ripperda
+        hund: Banda Los Valientes Anny
+        stufe: IGP3
+        a: '87'
+        b: '91'
+        c: '87'
+        gesamt: '265'
+        note: G
+        ergebnis: bestanden
+      - hundefuehrer: Wolfgang Albers
+        hund: Mika von Peroh
+        stufe: IFH-V
+        a: '97'
+        b: '-'
+        c: '-'
+        gesamt: '97'
+        note: V
+        ergebnis: bestanden
+      - hundefuehrer: Annette Lilienbecker
+        hund: Uma vom Erdbeerlord
+        stufe: IFH2
+        a: '96'
+        b: '-'
+        c: '-'
+        gesamt: '96'
+        note: V
+        ergebnis: bestanden
+      - hundefuehrer: Denise Wissmann
+        hund: Paws on Heaven plucky Percy
+        stufe: BH
+        a: '-'
+        b: '-'
+        c: '-'
+        gesamt: '-'
+        note: ''
+        ergebnis: bestanden
+      - hundefuehrer: Karl Pelz
+        hund: Charly
+        stufe: BH
+        a: '-'
+        b: '-'
+        c: '-'
+        gesamt: '-'
+        note: ''
+        ergebnis: n.b. *1
+      - hundefuehrer: Stefan Ripperda
+        hund: Hexe vom schnellen Falken
+        stufe: IBGH1
+        a: '-'
+        b: '94'
+        c: '-'
+        gesamt: '94'
+        note: SG
+        ergebnis: bestanden
+      - hundefuehrer: Heinz Göke
+        hund: Frieda
+        stufe: SPr3
+        a: '-'
+        b: '-'
+        c: '87'
+        gesamt: '87'
+        note: G
+        ergebnis: bestanden
+  - titel: Frühjahrsprüfung der Ortsgruppe Rheine
+    datum: 07.05.2022
+    richter: Gerhard von der Haar
+    ergebnisse:
+      - hundefuehrer: ''
+        hund: Bumblebe von der Heilstätten
+        stufe: BH
+        a: ''
+        b: ''
+        c: ''
+        gesamt: J
+        note: ''
+        ergebnis: bestanden
+      - hundefuehrer: Heinz Göke
+        hund: Frieda
+        stufe: IGP3
+        a: '93'
+        b: '74'
+        c: '98'
+        gesamt: '265'
+        note: G
+        ergebnis: bestanden
+      - hundefuehrer: H-J Kubik
+        hund: Adelheit von der lichten Tanne
+        stufe: IGP2
+        a: '100'
+        b: '96'
+        c: '98'
+        gesamt: '294'
+        note: V
+        ergebnis: bestanden
+      - hundefuehrer: Michael Broer
+        hund: Justus vom Haus Bilko
+        stufe: IGP1
+        a: '86'
+        b: '94'
+        c: '94'
+        gesamt: '274'
+        note: V
+        ergebnis: bestanden
+      - hundefuehrer: Michael Jarvers
+        hund: Peres zur Worringer Rheinaue
+        stufe: IGP1
+        a: '96'
+        b: '70'
+        c: '72'
+        gesamt: '238'
+        note: B
+        ergebnis: bestanden
+  - titel: Prüfung der Ortsgruppe Rheine
+    datum: 24.10.2021
+    richter: Jörg Remecke
+    ergebnisse:
+      - hundefuehrer: Michael Broer
+        hund: Justus vom Haus Bilko
+        stufe: BH
+        a: ''
+        b: ''
+        c: ''
+        gesamt: ''
+        note: ''
+        ergebnis: bestanden
+      - hundefuehrer: Ina Göke
+        hund: Lennox
+        stufe: FPr3
+        a: '10'
+        b: ''
+        c: ''
+        gesamt: ''
+        note: M
+        ergebnis: bestanden
+      - hundefuehrer: Flüthmann Alfons
+        hund: Glen von Gondor
+        stufe: IGP 1
+        a: '97'
+        b: '76'
+        c: '93'
+        gesamt: '266'
+        note: G
+        ergebnis: bestanden
+      - hundefuehrer: Kubik Hans Jürgen
+        hund: Adelheid von der lichten Tanne
+        stufe: IGP 1
+        a: '98'
+        b: '90'
+        c: '95'
+        gesamt: '283'
+        note: SG
+        ergebnis: bestanden
+      - hundefuehrer: Heinz Göke
+        hund: Frieda
+        stufe: IGP 2
+        a: '90'
+        b: '76'
+        c: '90'
+        gesamt: '256'
+        note: G
+        ergebnis: bestanden
+      - hundefuehrer: Niehuesbernd Bernhard
+        hund: Henk vom Aufsteigenden Phönix
+        stufe: IFH 1
+        a: '90'
+        b: ''
+        c: ''
+        gesamt: '90'
+        note: SG
+        ergebnis: bestanden
+      - hundefuehrer: Feldhaus Ernst
+        hund: Zico von Walshagen
+        stufe: IFH 1
+        a: '96'
+        b: ''
+        c: ''
+        gesamt: '96'
+        note: V
+        ergebnis: bestanden
+      - hundefuehrer: Dörholt Elke
+        hund: Asha von canis callidus
+        stufe: IFH 1
+        a: '96'
+        b: ''
+        c: ''
+        gesamt: '96'
+        note: V
+        ergebnis: bestanden
+      - hundefuehrer: Torn Herman
+        hund: Lessie fan it Uleboerd
+        stufe: IFH 2
+        a: '100'
+        b: ''
+        c: ''
+        gesamt: '100'
+        note: V
+        ergebnis: bestanden
+      - hundefuehrer: von der Haar Gerhard
+        hund: Happy von Dulmenni
+        stufe: IFH 2
+        a: '6'
+        b: ''
+        c: ''
+        gesamt: '6'
+        note: M
+        ergebnis: nicht bestanden
+  - titel: Herbstprüfung der Ortsgruppe Rheine
+    datum: 18.10.2020
+    richter: Hermann Schämann
+    ergebnisse:
+      - hundefuehrer: Hans Jürgen Kubik
+        hund: Adelheid von der lichten Tanne
+        stufe: BH
+        a: ''
+        b: ''
+        c: ''
+        gesamt: ''
+        note: ''
+        ergebnis: bestanden
+      - hundefuehrer: Klaus Gedicke
+        hund: Anton von der lichten Tanne
+        stufe: BH
+        a: ''
+        b: ''
+        c: ''
+        gesamt: ''
+        note: ''
+        ergebnis: bestanden
+      - hundefuehrer: ''
+        hund: Ninja
+        stufe: BH
+        a: ''
+        b: ''
+        c: ''
+        gesamt: ''
+        note: ''
+        ergebnis: bestanden
+      - hundefuehrer: Andreas Friesen
+        hund: Esco vom Leester-Wasserfall
+        stufe: IGP 1
+        a: '98'
+        b: '94'
+        c: '92'
+        gesamt: '284'
+        note: SG
+        ergebnis: bestanden
+      - hundefuehrer: Heinz Göke
+        hund: Frieda
+        stufe: IGP 2
+        a: '-'
+        b: '-'
+        c: '-'
+        gesamt: '-'
+        note: DI
+        ergebnis: nicht bestanden
+      - hundefuehrer: Ina Göke
+        hund: Lennox
+        stufe: IGP 3
+        a: '92'
+        b: '82'
+        c: '96'
+        gesamt: '270'
+        note: SG
+        ergebnis: bestanden
+      - hundefuehrer: Michael Broer
+        hund: Arry von Erian
+        stufe: IGP 3
+        a: '99'
+        b: '92'
+        c: '96'
+        gesamt: '287'
+        note: V
+        ergebnis: bestanden
+      - hundefuehrer: ''
+        hund: Irac vom Campus
+        stufe: IGP 3
+        a: '97'
+        b: '80'
+        c: '91'
+        gesamt: '268'
+        note: G
+        ergebnis: bestanden
+      - hundefuehrer: Jörg Westphal
+        hund: Macho vom Midlicher Land
+        stufe: FPr 3
+        a: '99'
+        b: ''
+        c: ''
+        gesamt: ''
+        note: V
+        ergebnis: bestanden
+  - titel: Herbstprüfung der Ortsgruppe Rheine
+    datum: 03.11.2019
+    richter: Hermann Schämann
+    ergebnisse:
+      - hundefuehrer: ''
+        hund: Egar v. dan Alhedy's Hoeve
+        stufe: BH
+        a: ''
+        b: ''
+        c: ''
+        gesamt: ''
+        note: ''
+        ergebnis: bestanden
+      - hundefuehrer: Andreas Friesen
+        hund: Esco vom Leester-Wasserfall
+        stufe: BH
+        a: ''
+        b: ''
+        c: ''
+        gesamt: ''
+        note: ''
+        ergebnis: bestanden
+      - hundefuehrer: Heinz Göke
+        hund: Frieda
+        stufe: IGP1
+        a: '92'
+        b: '78'
+        c: '91'
+        gesamt: '261'
+        note: G
+        ergebnis: bestanden
+      - hundefuehrer: Pascal Landua
+        hund: Whisky zur Krombach
+        stufe: IGP 1
+        a: '54'
+        b: '76'
+        c: '93'
+        gesamt: '-'
+        note: M
+        ergebnis: nicht bestanden
+      - hundefuehrer: Ina Göke
+        hund: Lennox
+        stufe: IGP 3
+        a: '-'
+        b: '-'
+        c: '-'
+        gesamt: '-'
+        note: DI
+        ergebnis: nicht bestanden
+      - hundefuehrer: Jörg Westphal
+        hund: Macho vom Midlicher Land
+        stufe: IGP 3
+        a: '92'
+        b: '81'
+        c: '90'
+        gesamt: '263'
+        note: G
+        ergebnis: bestanden
+      - hundefuehrer: Michael Broer
+        hund: Arry von Erian
+        stufe: IGP 3
+        a: '100'
+        b: '93'
+        c: '95'
+        gesamt: '288'
+        note: V
+        ergebnis: bestanden
+  - titel: Frühjahrsprüfung der Ortsgruppe Rheine
+    datum: 11.05.2019
+    richter: Ludger Vortkamp
+    ergebnisse:
+      - hundefuehrer: Andreas Friesen
+        hund: Esco vom Leester-Wasserfall
+        stufe: BH
+        a: ''
+        b: ''
+        c: ''
+        gesamt: ''
+        note: ''
+        ergebnis: nicht bestanden
+      - hundefuehrer: Norbert Hüntemann
+        hund: Dax von Gondor
+        stufe: IFH 2
+        a: '97'
+        b: ''
+        c: ''
+        gesamt: '97'
+        note: V
+        ergebnis: bestanden
+      - hundefuehrer: Ina Göke
+        hund: Lennox
+        stufe: IGP 2
+        a: '70'
+        b: '72'
+        c: '86'
+        gesamt: '228'
+        note: B
+        ergebnis: bestanden
+      - hundefuehrer: Ulrich Kordsmeyer
+        hund: Kia vom schönen Blick
+        stufe: IGP 2
+        a: '83'
+        b: '80'
+        c: '82'
+        gesamt: '245'
+        note: G
+        ergebnis: bestanden
+      - hundefuehrer: Ulrich Kordsmeyer
+        hund: Konner vom Haus TTH
+        stufe: IGP 3
+        a: '3'
+        b: '80'
+        c: '93'
+        gesamt: '176'
+        note: M
+        ergebnis: nicht bestanden
+      - hundefuehrer: Ute Kenning
+        hund: Pepper von Electic Area
+        stufe: IGP 3
+        a: '73'
+        b: '85'
+        c: '70'
+        gesamt: '228'
+        note: B
+        ergebnis: bestanden
+      - hundefuehrer: Stefan Dreger
+        hund: Buddy an der Borg
+        stufe: IGP 3
+        a: '97'
+        b: '93'
+        c: '93'
+        gesamt: '283'
+        note: SG
+        ergebnis: bestanden
+  - titel: Herbstprüfung der Ortsgruppe Rheine
+    datum: 28.10.2018
+    richter: H.-G. Hoffmann
+    ergebnisse:
+      - hundefuehrer: Ina Göke
+        hund: Lennox
+        stufe: IPO 1
+        a: '70'
+        b: '72'
+        c: '98'
+        gesamt: '240'
+        note: G
+        ergebnis: bestanden
+      - hundefuehrer: Rolf Küper
+        hund: Frida vom schwarzen Ninja
+        stufe: IPO 1
+        a: '97'
+        b: '87'
+        c: '97'
+        gesamt: '281'
+        note: SG
+        ergebnis: bestanden
+      - hundefuehrer: Michael Broer
+        hund: Arry von Erian
+        stufe: IPO 3
+        a: '80'
+        b: '90'
+        c: '96'
+        gesamt: '266'
+        note: G
+        ergebnis: bestanden
+      - hundefuehrer: Stefan Voß
+        hund: Blade
+        stufe: IPO 3
+        a: '74'
+        b: '80'
+        c: '93'
+        gesamt: '247'
+        note: G
+        ergebnis: bestanden
+      - hundefuehrer: Ulrich Kordsmeyer
+        hund: Konner vom Haus TTH
+        stufe: IPO 3
+        a: '97'
+        b: '92'
+        c: '99'
+        gesamt: '288'
+        note: V
+        ergebnis: bestanden
+      - hundefuehrer: Jörg Westphal
+        hund: Macho vom Midlicher Land
+        stufe: IPO 3
+        a: '82'
+        b: '90'
+        c: '95'
+        gesamt: '267'
+        note: G
+        ergebnis: bestanden
+      - hundefuehrer: Petra Mahnke
+        hund: Steiner vom Padberg
+        stufe: IPO 3
+        a: '98'
+        b: '97'
+        c: '97'
+        gesamt: '292'
+        note: V
+        ergebnis: bestanden
+      - hundefuehrer: Frank Kockmann
+        hund: Eddy vom schwarzen Ninja
+        stufe: IPO 3
+        a: '97'
+        b: '96'
+        c: '99'
+        gesamt: '292'
+        note: V
+        ergebnis: bestanden
+      - hundefuehrer: Heinz Göke
+        hund: Frida
+        stufe: BH
+        a: ''
+        b: ''
+        c: ''
+        gesamt: ''
+        note: ''
+        ergebnis: bestanden
+      - hundefuehrer: Lena Igelbrink
+        hund: Montego Blue vom Egelschütz
+        stufe: BH
+        a: ''
+        b: ''
+        c: ''
+        gesamt: ''
+        note: ''
+        ergebnis: bestanden
+      - hundefuehrer: Heinz Göke
+        hund: Hunter
+        stufe: FPr1
+        a: '30'
+        b: ''
+        c: ''
+        gesamt: ''
+        note: M
+        ergebnis: nicht bestanden
+  - titel: Frühjahrsprüfung der Ortsgruppe Rheine
+    datum: 18.03.2018
+    richter: Jörg Remmecke
+    ergebnisse:
+      - hundefuehrer: Birte Wegner
+        hund: Alana on silent wings
+        stufe: BH
+        a: ''
+        b: ''
+        c: ''
+        gesamt: ''
+        note: SG
+        ergebnis: ''
+      - hundefuehrer: Ulrich Kordsmeyer
+        hund: Kia vom schönen Blick
+        stufe: IPO 1
+        a: '83'
+        b: '80'
+        c: '87'
+        gesamt: '250'
+        note: G
+        ergebnis: ''
+      - hundefuehrer: Michael Broer
+        hund: Arry von Erian
+        stufe: IPO 3
+        a: '88'
+        b: '88'
+        c: '94'
+        gesamt: '270'
+        note: SG
+        ergebnis: ''
+      - hundefuehrer: Petra Mahnke
+        hund: Steiner vom Padberg
+        stufe: IPO 3
+        a: '94'
+        b: '94'
+        c: '98'
+        gesamt: '286'
+        note: V
+        ergebnis: ''
+      - hundefuehrer: Norbert Bußmann
+        hund: Laines von Haus Welbergen
+        stufe: IPO 3
+        a: '63'
+        b: '78'
+        c: '84'
+        gesamt: '225'
+        note: M
+        ergebnis: ''
+      - hundefuehrer: Ulrich Kordsmeyer
+        hund: Konner vom Haus TTH
+        stufe: IPO 3
+        a: '96'
+        b: '86'
+        c: '88'
+        gesamt: '270'
+        note: SG
+        ergebnis: ''
+      - hundefuehrer: Andreas Friesen
+        hund: Tyson
+        stufe: IPO 3
+        a: '60'
+        b: '82'
+        c: '77'
+        gesamt: '219'
+        note: M
+        ergebnis: ''
+      - hundefuehrer: André Erdbrügge
+        hund: Dolores del Camino Duro
+        stufe: IPO 3
+        a: '87'
+        b: '93'
+        c: '96'
+        gesamt: '276'
+        note: SG
+        ergebnis: ''
+  - titel: Herbstprüfung der Ortsgruppe Rheine
+    datum: 22.10.2017
+    richter: Hermann Schämann
+    ergebnisse:
+      - hundefuehrer: Monice Tiekötter
+        hund: Yvo von Electric Area
+        stufe: BH
+        a: ''
+        b: ''
+        c: ''
+        gesamt: ''
+        note: bestanden
+        ergebnis: ''
+      - hundefuehrer: Ulrich Kordsmeyer
+        hund: Kia vom schönen Blick
+        stufe: BH
+        a: ''
+        b: ''
+        c: ''
+        gesamt: ''
+        note: bestanden
+        ergebnis: ''
+      - hundefuehrer: Ulrich Kordsmeyer
+        hund: Konner vom Haus TTH
+        stufe: IPO 2
+        a: '90'
+        b: '90'
+        c: '94'
+        gesamt: '274'
+        note: SG
+        ergebnis: ''
+      - hundefuehrer: Andreas Friesen
+        hund: Tyson
+        stufe: IPO 2
+        a: '94'
+        b: '95'
+        c: '81'
+        gesamt: '270'
+        note: SG
+        ergebnis: ''
+      - hundefuehrer: Norbert Bußmann
+        hund: Laines von Haus Welbergen
+        stufe: IPO 2
+        a: '87'
+        b: '83'
+        c: '87'
+        gesamt: '257'
+        note: G
+        ergebnis: ''
+      - hundefuehrer: Michael Broer
+        hund: Arry von Erian
+        stufe: IPO 3
+        a: '99'
+        b: '93'
+        c: '96'
+        gesamt: '288'
+        note: V
+        ergebnis: ''
+      - hundefuehrer: Jörg Westphal
+        hund: Macho vom Midlicher Land
+        stufe: IPO 3
+        a: '90'
+        b: '87'
+        c: '95'
+        gesamt: '272'
+        note: SG
+        ergebnis: ''
+      - hundefuehrer: Gerhard von der Haar
+        hund: Szecsivari Diego
+        stufe: FH 2
+        a: '97'
+        b: ''
+        c: ''
+        gesamt: '97'
+        note: V
+        ergebnis: ''

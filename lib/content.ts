@@ -37,6 +37,44 @@ export interface GalerieBild {
   beschreibung: string;
 }
 
+export interface VorstandPerson {
+  name: string;
+  rolle: string;
+  foto: string;
+  email?: string;
+  telefon?: string;
+}
+
+export interface Mitglied {
+  name: string;
+  hund?: string;
+  foto: string;
+}
+
+export interface MitgliederDaten {
+  hundefuehrer: Mitglied[];
+  mitglieder: Mitglied[];
+}
+
+export interface PruefungsErgebnis {
+  hundefuehrer: string;
+  hund: string;
+  stufe: string;
+  a: string;
+  b: string;
+  c: string;
+  gesamt: string;
+  note: string;
+  ergebnis: string;
+}
+
+export interface Pruefung {
+  titel: string;
+  datum: string;
+  richter: string;
+  ergebnisse: PruefungsErgebnis[];
+}
+
 function toIsoDate(value: unknown): string {
   if (value instanceof Date) return value.toISOString().slice(0, 10);
   return String(value).slice(0, 10);
@@ -49,6 +87,10 @@ function formatDate(iso: string): string {
 
 function renderMarkdown(md: string): string {
   return marked.parse(md) as string;
+}
+
+function loadYaml<T>(relPath: string): T {
+  return yaml.load(fs.readFileSync(path.join(contentDir, relPath), 'utf-8')) as T;
 }
 
 export function getBerichtSlugs(): string[] {
@@ -90,16 +132,26 @@ export function getSeite(name: string): Seite {
 }
 
 export function getTermine(): Termine {
-  const file = path.join(contentDir, 'termine.yml');
-  const data = yaml.load(fs.readFileSync(file, 'utf-8')) as Termine;
-  return {
-    jahr: data.jahr,
-    termine: data.termine ?? [],
-  };
+  const data = loadYaml<Termine>('termine.yml');
+  return { jahr: data.jahr, termine: data.termine ?? [] };
 }
 
 export function getGalerie(): GalerieBild[] {
-  const file = path.join(contentDir, 'galerie.yml');
-  const data = yaml.load(fs.readFileSync(file, 'utf-8')) as { bilder?: GalerieBild[] };
-  return data.bilder ?? [];
+  return loadYaml<{ bilder?: GalerieBild[] }>('galerie.yml').bilder ?? [];
+}
+
+export function getVorstand(): VorstandPerson[] {
+  return loadYaml<{ personen?: VorstandPerson[] }>('vorstand.yml').personen ?? [];
+}
+
+export function getMitglieder(): MitgliederDaten {
+  const data = loadYaml<Partial<MitgliederDaten>>('mitglieder.yml');
+  return {
+    hundefuehrer: data.hundefuehrer ?? [],
+    mitglieder: data.mitglieder ?? [],
+  };
+}
+
+export function getPruefungen(): Pruefung[] {
+  return loadYaml<{ pruefungen?: Pruefung[] }>('pruefungen.yml').pruefungen ?? [];
 }

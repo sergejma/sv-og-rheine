@@ -1,0 +1,76 @@
+hundefuehrer:
+  - name: Michael Broer
+    hund: Justus von Haus Bilko
+    foto: /uploads/mitglied-broer-justus.jpg
+  - name: Klaus Gedicke
+    hund: Anton von der lichten Tanne
+    foto: /uploads/mitglied-gedicke-anton.jpg
+  - name: Heinz Göke
+    hund: Frieda
+    foto: /uploads/mitglied-goeke-frieda.jpg
+  - name: Ina Göke
+    hund: Targaryen'c Dragon Action „Atze"
+    foto: /uploads/mitglied-goeke-targa.jpg
+  - name: Michael Jarvers
+    hund: Peres zur Worringer Rheinaue
+    foto: /uploads/mitglied-jarvers-peres.jpg
+  - name: Sandra Landua
+    hund: Whisky zur Krombach
+    foto: /uploads/mitglied-sandra-whisky.jpg
+  - name: Pascal Landua
+    hund: Whisky zur Krombach
+    foto: /uploads/mitglied-pascal-whisky.jpg
+  - name: Petra Mahnke
+    hund: Steiner von Padberg
+    foto: /uploads/mitglied-mahnke-steiner.jpg
+  - name: Carlo Pelz
+    hund: Charly
+    foto: /uploads/mitglied-pelz-charly.jpg
+  - name: Sieglinde Breuer
+    hund: Zarel von Athaba
+    foto: /uploads/mitglied-breuer-zarel.jpg
+  - name: Jörg Westphal
+    hund: Macho von Midlicher Land
+    foto: /uploads/mitglied-westphal-macho.jpg
+  - name: Karl-Heinz Broer
+    hund: Arry von Erian
+    foto: /uploads/mitglied-karl-heinz-broer.jpg
+  - name: Friedhelm Abels
+    hund: Ajax vom Schüttorfer Kreuz
+    foto: /uploads/mitglied-friedhelm-abels.jpeg
+  - name: Lukasz Poswiatowski
+    hund: Ninja
+    foto: /uploads/mitglied-poswiatowski.jpg
+  - name: Annika Kerfin
+    hund: Beppo
+    foto: /uploads/mitglied-annika-kerfin-beppo.jpg
+  - name: Nicole Potthoff
+    hund: Curly Fries
+    foto: /uploads/mitglied-nicole-potthoff-curly-fries.jpg
+  - name: Ute Kenning
+    hund: Pepper
+    foto: /uploads/mitglied-ute-kenning-pepper.jpg
+mitglieder:
+  - name: Irene Hupp
+    foto: /uploads/mitglied-irene-hupp.jpg
+  - name: Natascha Hupp
+    foto: /uploads/mitglied-natascha-hupp.jpg
+  - name: Dennis Knüppels
+    foto: /uploads/mitglied-dennis-knueppels.jpg
+  - name: Petra Knüppels
+    foto: /uploads/mitglied-petra-knueppels.jpg
+  - name: Maria Noack
+    hund: Mats
+    foto: /uploads/mitglied-maria-noack-mats.jpg
+  - name: Guido Pohlmann
+    foto: /uploads/mitglied-guido-pohlmann.jpg
+  - name: Frank Reers
+    foto: /uploads/mitglied-frank-reers.jpg
+  - name: Jonas Westphal
+    foto: /uploads/mitglied-jonas-westphal.jpg
+  - name: Uwe Upmann
+    foto: /uploads/mitglied-uwe-upmann.jpg
+  - name: Detlev Kenning
+    foto: /uploads/mitglied-detlev-kenning.jpg
+  - name: Thomas Kerfin
+    foto: /uploads/mitglied-thomas-kerfin.jpg

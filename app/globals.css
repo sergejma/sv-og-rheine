@@ -90,9 +90,21 @@ img {
 
 .brand {
   display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+}
+
+.brand-logo {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+
+.brand-text {
+  display: flex;
   flex-direction: column;
   gap: 2px;
-  text-decoration: none;
 }
 
 .brand-eyebrow {
@@ -176,10 +188,106 @@ img {
   margin-top: 12px;
 }
 
-.hero-bild img {
+/* ---------- Hero-Slider ---------- */
+
+.hero-slider {
+  position: relative;
+}
+
+.hero-slider-track {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 24px 48px -24px rgba(0, 0, 0, 0.55);
+}
+
+.hero-slider-track::-webkit-scrollbar {
+  display: none;
+}
+
+.hero-slide {
+  position: relative;
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  margin: 0;
+}
+
+.hero-slide img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-slide figcaption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 34px 16px 12px;
+  background: linear-gradient(transparent, rgba(15, 38, 22, 0.8));
+  color: var(--weiss);
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  font-weight: 550;
+}
+
+.slider-knopf {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(15, 38, 22, 0.65);
+  color: var(--weiss);
+  font-size: 1.6rem;
+  line-height: 1;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  padding-bottom: 4px;
+}
+
+.slider-knopf:hover {
+  background: var(--messing);
+}
+
+.slider-knopf--zurueck {
+  left: 10px;
+}
+
+.slider-knopf--weiter {
+  right: 10px;
+}
+
+.slider-punkte {
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+  margin-top: 14px;
+}
+
+.slider-punkte button {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.35);
+  cursor: pointer;
+}
+
+.slider-punkte button:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.slider-punkte button.aktiv {
+  background: var(--messing-hell);
 }
 
 @media (max-width: 780px) {
@@ -415,6 +523,114 @@ main > .section {
   margin: 1.2em 0 0.6em;
 }
 
+/* ---------- Personen (Vorstand & Mitglieder) ---------- */
+
+.personen-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
+  gap: 24px;
+}
+
+.person-karte {
+  background: var(--weiss);
+  border: 1px solid var(--rand);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.person-foto {
+  aspect-ratio: 4 / 5;
+  background: var(--gruen-100);
+}
+
+.person-foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.person-info {
+  padding: 14px 16px 16px;
+}
+
+.person-info h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.person-rolle {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  font-weight: 620;
+  color: var(--messing);
+  margin-top: 3px;
+}
+
+.person-kontakt {
+  font-family: var(--font-sans);
+  font-size: 0.84rem;
+  color: var(--text-soft);
+  margin-top: 6px;
+  overflow-wrap: anywhere;
+}
+
+.person-kontakt + .person-kontakt {
+  margin-top: 2px;
+}
+
+/* ---------- Prüfungen ---------- */
+
+.pruefung + .pruefung {
+  margin-top: 56px;
+}
+
+.pruefung-richter {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  color: var(--gruen-700);
+  margin: -10px 0 18px;
+}
+
+.tabelle-scroll {
+  overflow-x: auto;
+}
+
+.ergebnis-tabelle {
+  border-collapse: collapse;
+  background: var(--weiss);
+  border: 1px solid var(--rand);
+  border-radius: 12px;
+  overflow: hidden;
+  font-family: var(--font-sans);
+  font-size: 0.92rem;
+  white-space: nowrap;
+  min-width: 720px;
+}
+
+.ergebnis-tabelle th {
+  background: var(--gruen-900);
+  color: var(--weiss);
+  font-weight: 620;
+  text-align: left;
+  padding: 10px 14px;
+}
+
+.ergebnis-tabelle td {
+  padding: 9px 14px;
+  border-top: 1px solid var(--rand);
+}
+
+.ergebnis-tabelle tr:nth-child(even) td {
+  background: rgba(227, 236, 229, 0.45);
+}
+
+.fussnote {
+  margin-top: 40px;
+  font-size: 0.85rem;
+  color: var(--text-soft);
+  max-width: 760px;
+}
+
 /* ---------- Termine ---------- */
 
 .termine-tabelle {
@@ -474,6 +690,11 @@ main > .section {
   aspect-ratio: 4 / 3;
   overflow: hidden;
   background: var(--gruen-100);
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 0;
+  cursor: zoom-in;
 }
 
 .galerie-grid img {
@@ -492,6 +713,85 @@ main > .section {
   font-size: 0.86rem;
   color: var(--text-soft);
   padding: 12px 14px;
+}
+
+/* ---------- Lightbox ---------- */
+
+.lightbox {
+  border: none;
+  padding: 0;
+  background: transparent;
+  max-width: min(94vw, 1100px);
+  margin: auto;
+}
+
+.lightbox::backdrop {
+  background: rgba(15, 38, 22, 0.88);
+}
+
+.lightbox-inhalt {
+  position: relative;
+}
+
+.lightbox-inhalt img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+.lightbox-inhalt p {
+  color: var(--weiss);
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  text-align: center;
+  margin-top: 12px;
+  padding: 0 56px;
+}
+
+.lightbox-schliessen,
+.lightbox-pfeil {
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  background: rgba(15, 38, 22, 0.75);
+  color: var(--weiss);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+
+.lightbox-schliessen:hover,
+.lightbox-pfeil:hover {
+  background: var(--messing);
+}
+
+.lightbox-schliessen {
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 1.1rem;
+}
+
+.lightbox-pfeil {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 46px;
+  height: 46px;
+  font-size: 1.8rem;
+  padding-bottom: 4px;
+}
+
+.lightbox-pfeil--zurueck {
+  left: 10px;
+}
+
+.lightbox-pfeil--weiter {
+  right: 10px;
 }
 
 /* ---------- Footer ---------- */

@@ -55,29 +55,91 @@ collections:
         }
       - { label: Teaser, name: teaser, widget: text, hint: "1–2 Sätze für die Vorschau auf der Startseite." }
       - { label: Bild, name: image, widget: image, required: false, hint: "Vorschaubild für die Startseite." }
-      - { label: Text, name: body, widget: markdown }
+      - label: Text
+        name: body
+        widget: markdown
+        modes: [rich_text]
+        buttons: [bold, italic, link, heading-two, heading-three, bulleted-list, numbered-list, quote]
+        editor_components: [image]
+        hint: "Text schreiben wie in Word — über das Plus-Symbol lassen sich Bilder einfügen."
+
+  - name: vorstand
+    label: Vorstand
+    files:
+      - file: content/vorstand.yml
+        name: vorstand
+        label: Vorstand
+        fields:
+          - label: Vorstandsmitglieder
+            name: personen
+            widget: list
+            summary: "{{fields.name}} – {{fields.rolle}}"
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Funktion, name: rolle, widget: string, hint: "z. B. 1. Vorsitzender" }
+              - { label: Foto, name: foto, widget: image }
+              - { label: E-Mail, name: email, widget: string, required: false, hint: "Schreibweise mit (at) statt @ schützt vor Spam-Robotern." }
+              - { label: Telefon, name: telefon, widget: string, required: false }
+
+  - name: mitglieder
+    label: Mitglieder
+    files:
+      - file: content/mitglieder.yml
+        name: mitglieder
+        label: Mitglieder
+        fields:
+          - label: Hundeführer
+            name: hundefuehrer
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Hund, name: hund, widget: string, required: false }
+              - { label: Foto, name: foto, widget: image }
+          - label: Mitglieder
+            name: mitglieder
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { label: Name, name: name, widget: string }
+              - { label: Hund, name: hund, widget: string, required: false }
+              - { label: Foto, name: foto, widget: image }
+
+  - name: pruefungsergebnisse
+    label: Prüfungen
+    files:
+      - file: content/pruefungen.yml
+        name: pruefungen
+        label: Prüfungsergebnisse
+        fields:
+          - label: Prüfungen
+            name: pruefungen
+            widget: list
+            summary: "{{fields.titel}} am {{fields.datum}}"
+            collapsed: true
+            fields:
+              - { label: Titel, name: titel, widget: string, hint: "z. B. Herbstprüfung der Ortsgruppe Rheine" }
+              - { label: Datum, name: datum, widget: string, hint: "z. B. 26.10.2024" }
+              - { label: Leistungsrichter, name: richter, widget: string }
+              - label: Ergebnisse
+                name: ergebnisse
+                widget: list
+                summary: "{{fields.hundefuehrer}} – {{fields.stufe}}"
+                collapsed: true
+                fields:
+                  - { label: Hundeführer, name: hundefuehrer, widget: string, required: false }
+                  - { label: Hund, name: hund, widget: string, required: false }
+                  - { label: Stufe, name: stufe, widget: string, required: false, hint: "z. B. IGP1, BH, IBGH1" }
+                  - { label: "A (Fährte)", name: a, widget: string, required: false }
+                  - { label: "B (Unterordnung)", name: b, widget: string, required: false }
+                  - { label: "C (Schutzdienst)", name: c, widget: string, required: false }
+                  - { label: Gesamt, name: gesamt, widget: string, required: false }
+                  - { label: Note, name: note, widget: string, required: false, hint: "V, SG, G, B oder M" }
+                  - { label: Ergebnis, name: ergebnis, widget: string, required: false, hint: "bestanden / nicht bestanden" }
 
   - name: seiten
     label: Seiten
     files:
-      - file: content/seiten/vorstand.md
-        name: vorstand
-        label: Vorstand
-        fields:
-          - { label: Titel, name: title, widget: string }
-          - { label: Inhalt, name: body, widget: markdown }
-      - file: content/seiten/mitglieder.md
-        name: mitglieder
-        label: Mitglieder
-        fields:
-          - { label: Titel, name: title, widget: string }
-          - { label: Inhalt, name: body, widget: markdown }
-      - file: content/seiten/pruefungen.md
-        name: pruefungen
-        label: Prüfungen
-        fields:
-          - { label: Titel, name: title, widget: string }
-          - { label: Inhalt, name: body, widget: markdown }
       - file: content/seiten/impressum.md
         name: impressum
         label: Impressum
