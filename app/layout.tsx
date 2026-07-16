@@ -29,8 +29,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="site-header">
           <div className="container">
             <Link href="/" className="brand">
-              <span className="brand-eyebrow">Verein für Deutsche Schäferhunde (SV) e.V.</span>
-              <span className="brand-name">Ortsgruppe Rheine</span>
+              <img
+                src="/uploads/logo-german-shepherd.png"
+                alt=""
+                className="brand-logo"
+                width={44}
+                height={44}
+              />
+              <span className="brand-text">
+                <span className="brand-eyebrow">Verein für Deutsche Schäferhunde (SV) e.V.</span>
+                <span className="brand-name">Ortsgruppe Rheine</span>
+              </span>
             </Link>
             <nav className="site-nav" aria-label="Hauptnavigation">
               {navigation.map((item) => (

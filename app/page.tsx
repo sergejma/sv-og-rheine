@@ -1,5 +1,29 @@
 import Link from 'next/link';
+import HeroSlider from '@/components/HeroSlider';
 import { getBerichte } from '@/lib/content';
+
+const heroSlides = [
+  {
+    src: '/uploads/vereinsheim.jpg',
+    alt: 'Vereinsheim der OG Rheine am Moosgraben',
+    caption: 'Herzlich willkommen bei der Ortsgruppe Rheine',
+  },
+  {
+    src: '/uploads/hero-uebungsgelaende.jpg',
+    alt: 'Übungsgelände der OG Rheine',
+    caption: 'Unser Übungsgelände am Moosgraben',
+  },
+  {
+    src: '/uploads/hero-vereinsheim-gebaeude.jpg',
+    alt: 'Vereinsheim der OG Rheine',
+    caption: 'Das Vereinsheim',
+  },
+  {
+    src: '/uploads/hero-uebungsplatz-geraete.jpg',
+    alt: 'Übungsplatz mit Trainingsgeräten',
+    caption: 'Platz mit Übungsgeräten',
+  },
+];
 
 export default function HomePage() {
   const berichte = getBerichte();
@@ -21,7 +45,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="hero-bild">
-            <img src="/uploads/vereinsheim.jpg" alt="Vereinsheim der OG Rheine am Moosgraben" />
+            <HeroSlider slides={heroSlides} />
           </div>
         </div>
       </section>
