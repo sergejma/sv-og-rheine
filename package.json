@@ -1,0 +1,28 @@
+{
+  "name": "sv-og-rheine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vereinswebsite des Vereins für Deutsche Schäferhunde (SV) e.V. – Ortsgruppe Rheine",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fontsource-variable/archivo": "^5.2.5",
+    "@fontsource-variable/source-serif-4": "^5.2.5",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0",
+    "marked": "^15.0.7",
+    "next": "^15.3.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.8.3"
+  }
+}
