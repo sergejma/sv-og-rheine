@@ -34,8 +34,10 @@ Das CMS unter `/admin/` nutzt [DecapBridge](https://decapbridge.com) für den Re
 
 1. Account auf [decapbridge.com](https://decapbridge.com) anlegen.
 2. Dort eine neue Site erstellen und mit dem GitHub-Repo `sergejma/sv-og-rheine` verknüpfen.
-3. Die von DecapBridge angezeigte `identity_url` in `public/admin/config.yml` beim Feld `identity_url:` eintragen (ersetzt den Platzhalter `DECAPBRIDGE_IDENTITY_URL`).
+3. Die PKCE-Auth-Endpunkte der DecapBridge-Site sind in `public/admin/config.yml` unter `backend:` eingetragen (`auth_endpoint`/`auth_token_endpoint` mit der Site-ID). Bei einer neuen DecapBridge-Site diese beiden Pfade aus dem Dashboard-Snippet aktualisieren.
 4. Redakteure im DecapBridge-Dashboard per E-Mail einladen — sie erhalten einen Einladungslink und setzen sich ein Passwort.
+
+Als „Decap CMS login URL" in DecapBridge die dauerhafte Adresse eintragen (aktuell `https://stalwart-tarsier-11fda8.netlify.app/admin/`, nach dem Domain-Umzug `https://www.sv-og-rheine.de/admin/`) — keine Deploy-Permalink-URL mit Hash-Präfix.
 
 Danach ist das CMS unter `https://<domain>/admin/` erreichbar; Änderungen werden als Commits ins Repo geschrieben und lösen automatisch einen neuen Build aus.
 

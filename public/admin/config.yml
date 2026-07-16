@@ -1,21 +1,37 @@
+# DecapBridge-Auth (PKCE) — Site-ID aus dem DecapBridge-Dashboard
 backend:
   name: git-gateway
   repo: sergejma/sv-og-rheine
   branch: main
-  identity_url: DECAPBRIDGE_IDENTITY_URL # Platzhalter: identity_url aus dem DecapBridge-Dashboard eintragen
+  auth_type: pkce
+  base_url: https://auth.decapbridge.com
+  auth_endpoint: /sites/6a28f2dc-d453-406f-bb0e-4226af9b5e43/pkce
+  auth_token_endpoint: /sites/6a28f2dc-d453-406f-bb0e-4226af9b5e43/token
   gateway_url: https://gateway.decapbridge.com
+
+  # Nachvollziehbare Commits: wer hat was geändert
   commit_messages:
-    create: Create {{collection}} "{{slug}}" - {{author-name}} via DecapBridge
-    update: Update {{collection}} "{{slug}}" - {{author-name}} via DecapBridge
-    delete: Delete {{collection}} "{{slug}}" - {{author-name}} via DecapBridge
-    uploadMedia: Upload "{{path}}" - {{author-name}} via DecapBridge
-    deleteMedia: Delete "{{path}}" - {{author-name}} via DecapBridge
+    create: Create {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    update: Update {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    delete: Delete {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    uploadMedia: Upload “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    deleteMedia: Delete “{{path}}” - {{author-name}} <{{author-login}}> via DecapBridge
+    openAuthoring: Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge
+
+# PKCE-Profilfelder für die Redakteurs-Anzeige
+auth:
+  email_claim: email
+  first_name_claim: first_name
+  last_name_claim: last_name
+  avatar_url_claim: avatar_url
+
+logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 
 # Für lokales Testen ohne Login: Zeile einkommentieren und `npx decap-server` starten.
 # local_backend: true
 
 locale: de
-site_url: https://www.sv-og-rheine.de
+site_url: https://stalwart-tarsier-11fda8.netlify.app # nach Domain-Umzug: https://www.sv-og-rheine.de
 media_folder: public/uploads
 public_folder: /uploads
 
