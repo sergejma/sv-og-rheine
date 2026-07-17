@@ -17,6 +17,7 @@ export default function TerminePage() {
         {termine.length === 0 ? (
           <p className="leer-hinweis">Aktuell sind keine Termine eingetragen.</p>
         ) : (
+          <div className="tabelle-scroll">
           <table className="termine-tabelle">
             <thead>
               <tr>
@@ -35,6 +36,7 @@ export default function TerminePage() {
               ))}
             </tbody>
           </table>
+          </div>
         )}
       </div>
     </article>

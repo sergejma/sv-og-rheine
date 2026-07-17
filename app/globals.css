@@ -155,7 +155,7 @@ img {
 
 .hero .container {
   display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.08fr);
   gap: 48px;
   align-items: center;
 }
@@ -217,7 +217,7 @@ img {
 
 .hero-slide img {
   width: 100%;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
   display: block;
 }
@@ -291,8 +291,75 @@ img {
 }
 
 @media (max-width: 780px) {
+  .hero {
+    padding-block: 40px 48px;
+  }
+
   .hero .container {
     grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .hero h1 {
+    margin-bottom: 14px;
+  }
+}
+
+@media (max-width: 460px) {
+  .site-header .container {
+    padding-block: 14px;
+  }
+
+  .brand {
+    gap: 11px;
+  }
+
+  .brand-logo {
+    width: 46px;
+    height: 46px;
+  }
+
+  .brand-eyebrow {
+    font-size: 0.6rem;
+  }
+
+  .brand-name {
+    font-size: 1.2rem;
+  }
+
+  .site-nav {
+    gap: 2px 16px;
+  }
+
+  main > .section {
+    padding-block: 40px;
+  }
+
+  .inhalt {
+    padding-block: 36px 60px;
+  }
+
+  .seite-kopf {
+    padding-block: 32px 36px;
+  }
+
+  .lightbox-inhalt p {
+    padding: 0 8px;
+  }
+
+  .termine-tabelle th,
+  .termine-tabelle td {
+    padding: 10px 12px;
+    font-size: 0.95rem;
+  }
+
+  .termine-tabelle td:first-child {
+    font-size: 0.95rem;
+  }
+
+  .termine-tabelle td:last-child {
+    hyphens: auto;
+    overflow-wrap: anywhere;
   }
 }
 
