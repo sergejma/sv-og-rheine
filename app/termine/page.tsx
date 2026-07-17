@@ -18,24 +18,36 @@ export default function TerminePage() {
           <p className="leer-hinweis">Aktuell sind keine Termine eingetragen.</p>
         ) : (
           <div className="tabelle-scroll">
-          <table className="termine-tabelle">
-            <thead>
-              <tr>
-                <th scope="col">Datum</th>
-                <th scope="col">Uhrzeit</th>
-                <th scope="col">Termin</th>
-              </tr>
-            </thead>
-            <tbody>
-              {termine.map((termin, i) => (
-                <tr key={i}>
-                  <td>{termin.datum}</td>
-                  <td>{termin.uhrzeit}</td>
-                  <td>{termin.titel}</td>
+            <table className="termine-tabelle">
+              <thead>
+                <tr>
+                  <th scope="col">Datum</th>
+                  <th scope="col" className="spalte-uhrzeit">
+                    Uhrzeit
+                  </th>
+                  <th scope="col">Termin</th>
+                  <th scope="col" className="spalte-organisator">
+                    Organisator
+                  </th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {termine.map((termin, i) => {
+                  const details = [termin.uhrzeit, termin.organisator].filter(Boolean).join(' · ');
+                  return (
+                    <tr key={i}>
+                      <td>{termin.datum}</td>
+                      <td className="spalte-uhrzeit">{termin.uhrzeit}</td>
+                      <td>
+                        {termin.titel}
+                        {details && <span className="termin-detail">{details}</span>}
+                      </td>
+                      <td className="spalte-organisator">{termin.organisator}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
           </div>
         )}
       </div>

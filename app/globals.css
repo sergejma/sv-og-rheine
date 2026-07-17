@@ -356,11 +356,6 @@ img {
   .termine-tabelle td:first-child {
     font-size: 0.95rem;
   }
-
-  .termine-tabelle td:last-child {
-    hyphens: auto;
-    overflow-wrap: anywhere;
-  }
 }
 
 /* ---------- Abschnitte ---------- */
@@ -738,6 +733,35 @@ main > .section {
 .termine-tabelle td:nth-child(2) {
   white-space: nowrap;
   color: var(--text-soft);
+}
+
+.termine-tabelle td:last-child {
+  color: var(--text-soft);
+}
+
+/* Uhrzeit & Organisator: eigene Spalten am Desktop, Unterzeile am Handy */
+.termin-detail {
+  display: none;
+}
+
+@media (max-width: 660px) {
+  .termine-tabelle .spalte-uhrzeit,
+  .termine-tabelle .spalte-organisator {
+    display: none;
+  }
+
+  .termin-detail {
+    display: block;
+    font-family: var(--font-sans);
+    font-size: 0.84rem;
+    color: var(--text-soft);
+    margin-top: 4px;
+  }
+
+  .termine-tabelle td:nth-child(3) {
+    hyphens: auto;
+    overflow-wrap: anywhere;
+  }
 }
 
 /* ---------- Galerie ---------- */

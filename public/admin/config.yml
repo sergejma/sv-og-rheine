@@ -166,9 +166,10 @@ collections:
             widget: list
             summary: "{{fields.datum}} – {{fields.titel}}"
             fields:
-              - { label: Datum, name: datum, widget: string, hint: "z. B. 25.01." }
-              - { label: Uhrzeit, name: uhrzeit, widget: string, hint: "z. B. 19:00 Uhr" }
+              - { label: Datum, name: datum, widget: string, hint: "z. B. 25.01. — Jahr nur angeben, wenn es vom Kalenderjahr oben abweicht." }
+              - { label: Uhrzeit, name: uhrzeit, widget: string, required: false, hint: "z. B. 19:00 Uhr" }
               - { label: Titel, name: titel, widget: string }
+              - { label: Organisator, name: organisator, widget: string, required: false, hint: "z. B. Vorstand oder Namen der Verantwortlichen" }
 
   - name: galerie
     label: Galerie

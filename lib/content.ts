@@ -23,8 +23,9 @@ export interface Seite {
 
 export interface Termin {
   datum: string;
-  uhrzeit: string;
+  uhrzeit?: string;
   titel: string;
+  organisator?: string;
 }
 
 export interface Termine {
