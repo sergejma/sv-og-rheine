@@ -69,6 +69,14 @@ Sofern wir im Rahmen unserer Verarbeitung Daten gegenüber anderen Personen und 
 
 Sofern wir Dritte mit der Verarbeitung von Daten auf Grundlage eines sog. „Auftragsverarbeitungsvertrages" beauftragen, geschieht dies auf Grundlage des Art. 28 DSGVO.
 
+## Hosting und eingesetzte Dienstleister
+
+Diese Website wird als statische Website bei Netlify gehostet (Netlify, Inc., 512 2nd Street, Suite 200, San Francisco, CA 94107, USA). Beim Aufruf der Website verarbeitet Netlify technisch notwendige Daten wie IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Seiten und übertragene Datenmenge (Server-Logfiles), um die Website auszuliefern sowie die Sicherheit und Stabilität des Angebots zu gewährleisten (Art. 6 Abs. 1 lit. f DSGVO). Eine etwaige Übermittlung in Drittländer erfolgt nach Maßgabe des Abschnitts „Übermittlungen in Drittländer" auf Grundlage geeigneter Garantien gem. Art. 44 ff. DSGVO.
+
+Die Inhalte dieser Website (Texte, Bilder, Termine) werden in einem Repository beim Dienst GitHub (GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA) gespeichert und verwaltet. Beim bloßen Besuch der Website werden keine Besucherdaten an GitHub übertragen.
+
+Für die Pflege der Inhalte nutzen die Redakteurinnen und Redakteure des Vereins ein Redaktionssystem mit Anmeldung über den Dienst DecapBridge ([decapbridge.com](https://decapbridge.com)). Dabei werden ausschließlich von den Redakteuren — nicht von Besuchern der Website — Name, E-Mail-Adresse und Anmeldedaten verarbeitet, um Inhalte bearbeiten zu können (Art. 6 Abs. 1 lit. b und f DSGVO).
+
 ## Übermittlungen in Drittländer
 
 Sofern wir Daten in einem Drittland (d.h. außerhalb der Europäischen Union (EU) oder des Europäischen Wirtschaftsraums (EWR)) verarbeiten oder dies im Rahmen der Inanspruchnahme von Diensten Dritter oder Offenlegung, bzw. Übermittlung von Daten an Dritte geschieht, erfolgt dies nur, wenn es zur Erfüllung unserer (vor)vertraglichen Pflichten, auf Grundlage Ihrer Einwilligung, aufgrund einer rechtlichen Verpflichtung oder auf Grundlage unserer berechtigten Interessen geschieht. Vorbehaltlich gesetzlicher oder vertraglicher Erlaubnisse, verarbeiten oder lassen wir die Daten in einem Drittland nur beim Vorliegen der besonderen Voraussetzungen der Art. 44 ff. DSGVO verarbeiten. D.h. die Verarbeitung erfolgt z.B. auf Grundlage besonderer Garantien, wie der offiziell anerkannten Feststellung eines der EU entsprechenden Datenschutzniveaus (z.B. für die USA durch das „Privacy Shield") oder Beachtung offiziell anerkannter spezieller vertraglicher Verpflichtungen (so genannte „Standardvertragsklauseln").
@@ -93,15 +101,11 @@ Sie haben das Recht, erteilte Einwilligungen gem. Art. 7 Abs. 3 DSGVO mit Wirkun
 
 Sie können der künftigen Verarbeitung der Sie betreffenden Daten nach Maßgabe des Art. 21 DSGVO jederzeit widersprechen. Der Widerspruch kann insbesondere gegen die Verarbeitung für Zwecke der Direktwerbung erfolgen.
 
-## Cookies und Widerspruchsrecht bei Direktwerbung
+## Cookies
 
-Als „Cookies" werden kleine Dateien bezeichnet, die auf Rechnern der Nutzer gespeichert werden. Innerhalb der Cookies können unterschiedliche Angaben gespeichert werden. Ein Cookie dient primär dazu, die Angaben zu einem Nutzer (bzw. dem Gerät auf dem das Cookie gespeichert ist) während oder auch nach seinem Besuch innerhalb eines Onlineangebotes zu speichern. Als temporäre Cookies, bzw. „Session-Cookies" oder „transiente Cookies", werden Cookies bezeichnet, die gelöscht werden, nachdem ein Nutzer ein Onlineangebot verlässt und seinen Browser schließt. In einem solchen Cookie kann z.B. der Inhalt eines Warenkorbs in einem Onlineshop oder ein Login-Status gespeichert werden. Als „permanent" oder „persistent" werden Cookies bezeichnet, die auch nach dem Schließen des Browsers gespeichert bleiben. So kann z.B. der Login-Status gespeichert werden, wenn die Nutzer diese nach mehreren Tagen aufsuchen. Ebenso können in einem solchen Cookie die Interessen der Nutzer gespeichert werden, die für Reichweitenmessung oder Marketingzwecke verwendet werden. Als „Third-Party-Cookie" werden Cookies bezeichnet, die von anderen Anbietern als dem Verantwortlichen, der das Onlineangebot betreibt, angeboten werden (andernfalls, wenn es nur dessen Cookies sind spricht man von „First-Party Cookies").
+Diese Website setzt keine Cookies ein. Es werden weder Tracking- noch Analyse- oder Marketing-Cookies verwendet; ein Cookie-Banner ist daher nicht erforderlich.
 
-Wir können temporäre und permanente Cookies einsetzen und klären hierüber im Rahmen unserer Datenschutzerklärung auf.
-
-Falls die Nutzer nicht möchten, dass Cookies auf ihrem Rechner gespeichert werden, werden sie gebeten die entsprechende Option in den Systemeinstellungen ihres Browsers zu deaktivieren. Gespeicherte Cookies können in den Systemeinstellungen des Browsers gelöscht werden. Der Ausschluss von Cookies kann zu Funktionseinschränkungen dieses Onlineangebotes führen.
-
-Ein genereller Widerspruch gegen den Einsatz der zu Zwecken des Onlinemarketing eingesetzten Cookies kann bei einer Vielzahl der Dienste, vor allem im Fall des Trackings, über die US-amerikanische Seite [http://www.aboutads.info/choices/](http://www.aboutads.info/choices/) oder die EU-Seite [http://www.youronlinechoices.com/](http://www.youronlinechoices.com/) erklärt werden. Des Weiteren kann die Speicherung von Cookies mittels deren Abschaltung in den Einstellungen des Browsers erreicht werden. Bitte beachten Sie, dass dann gegebenenfalls nicht alle Funktionen dieses Onlineangebotes genutzt werden können.
+Lediglich im internen Redaktionsbereich (`/admin/`) werden bei der Anmeldung technisch notwendige Anmeldeinformationen im Browser gespeichert (Local Storage). Diese sind für die Funktion des Redaktionssystems erforderlich und betreffen ausschließlich die angemeldeten Redakteurinnen und Redakteure des Vereins, nicht die Besucher der Website.
 
 ## Löschung von Daten
 
@@ -119,6 +123,6 @@ Die hierbei verarbeiteten Daten, die Art, der Umfang und der Zweck und die Erfor
 
 Wir löschen Daten, die zur Erbringung unserer satzungs- und geschäftsmäßigen Zwecke nicht mehr erforderlich sind. Dies bestimmt sich entsprechend der jeweiligen Aufgaben und vertraglichen Beziehungen. Im Fall geschäftlicher Verarbeitung bewahren wir die Daten so lange auf, wie sie zur Geschäftsabwicklung, als auch im Hinblick auf etwaige Gewährleistungs- oder Haftungspflichten relevant sein können. Die Erforderlichkeit der Aufbewahrung der Daten wird alle drei Jahre überprüft; im Übrigen gelten die gesetzlichen Aufbewahrungspflichten.
 
-[Erstellt mit Datenschutz-Generator.de von RA Dr. Thomas Schwenke](https://datenschutz-generator.de)
+Stand: Juli 2026
 
-<!-- TODO: GitHub, Netlify/Hoster und DecapBridge als Dienstleister ergänzen lassen -->
+[Erstellt mit Datenschutz-Generator.de von RA Dr. Thomas Schwenke](https://datenschutz-generator.de)
