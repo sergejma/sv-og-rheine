@@ -1,8 +1,9 @@
 name: Deploy zu all-inkl
 
-# Läuft bei jedem Push auf main (auch CMS-Commits) — baut die Website
-# und lädt sie per FTPS auf den all-inkl-Webspace.
+# Baut die Website und lädt sie per FTPS auf den all-inkl-Webspace.
 # Zugangsdaten liegen in den Repo-Secrets: FTP_SERVER, FTP_USERNAME, FTP_PASSWORD.
+# Upload via lftp: der kasserver verlangt TLS-Session-Wiederverwendung auf der
+# Datenverbindung, was JS-basierte FTP-Actions (basic-ftp) nicht können.
 on:
   workflow_dispatch:
 
@@ -25,12 +26,26 @@ jobs:
       - name: Statische Website bauen
         run: npm run build
 
+      - name: lftp installieren
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+
       - name: Per FTPS zu all-inkl hochladen
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
-          local-dir: ./out/
-          server-dir: ./
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          umask 077
+          printf 'machine %s\nlogin %s\npassword %s\n' "$FTP_SERVER" "$FTP_USERNAME" "$FTP_PASSWORD" > ~/.netrc
+          lftp -e "
+            set cmd:fail-exit true
+            set net:max-retries 2
+            set net:timeout 30
+            set ftp:ssl-force true
+            set ftp:ssl-protect-data true
+            set ssl:verify-certificate true
+            open $FTP_SERVER
+            mirror --reverse --delete --verbose=1 --parallel=3 ./out/ /
+            quit
+          "
+          rm -f ~/.netrc
