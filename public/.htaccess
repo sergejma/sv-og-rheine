@@ -1,0 +1,6 @@
+# Statische Website (Next.js Export) auf Apache/all-inkl
+ErrorDocument 404 /404.html
+
+# Verzeichnis-Auflistung aus, saubere Index-Auslieferung
+Options -Indexes
+DirectoryIndex index.html
