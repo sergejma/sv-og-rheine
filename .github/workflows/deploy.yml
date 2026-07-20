@@ -5,6 +5,8 @@ name: Deploy zu all-inkl
 # Upload via lftp: der kasserver verlangt TLS-Session-Wiederverwendung auf der
 # Datenverbindung, was JS-basierte FTP-Actions (basic-ftp) nicht können.
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 jobs:
