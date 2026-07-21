@@ -31,7 +31,7 @@ logo_url: /uploads/logo-cms.png
 # local_backend: true
 
 locale: de
-site_url: https://stalwart-tarsier-11fda8.netlify.app # nach Domain-Umzug: https://www.sv-og-rheine.de
+site_url: https://www.sv-og-rheine.de
 media_folder: public/uploads
 public_folder: /uploads
 
